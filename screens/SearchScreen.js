@@ -1,10 +1,10 @@
-import React, { useContext } from "react";
-import { StyleSheet, View } from "react-native";
+import React, { useContext } from 'react';
+import { StyleSheet, View } from 'react-native';
 
-import EmptySearchResult from "../components/EmptySearchResult";
-import FeedList from "../components/FeedList";
-import LogContext from "../contexts/LogContext";
-import SearchContext from "../contexts/SearchContext";
+import EmptySearchResult from '../components/EmptySearchResult';
+import FeedList from '../components/FeedList';
+import LogContext from '../contexts/LogContext';
+import SearchContext from '../contexts/SearchContext';
 
 function SearchScreen({navigation}) {
     const {keyword} = useContext(SearchContext);

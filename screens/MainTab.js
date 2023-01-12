@@ -1,11 +1,11 @@
-import React from "react";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import Icon from "react-native-vector-icons/MaterialIcons";
+import React from 'react';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import FeedsScreen from "./FeedsScreen";
-import CalendarScreen from "./CalendarScreen";
-import SearchScreen from "./SearchScreen";
-import SearchHeader from "../components/SearchHeader";
+import FeedsScreen from './FeedsScreen';
+import CalendarScreen from './CalendarScreen';
+import SearchScreen from './SearchScreen';
+import SearchHeader from '../components/SearchHeader';
 
 const Tab = createBottomTabNavigator();
 
@@ -14,7 +14,7 @@ function MainTab() {
         <Tab.Navigator
             tabBarOptions={{
                 showLabel: false,
-                activeTintColor: '#009688',
+                activeTintColor: '#112D4E',
             }}>
             <Tab.Screen 
                 name="Feeds" 

@@ -1,5 +1,5 @@
-import React, {useRef} from "react";
-import { View, StyleSheet, TextInput } from "react-native";
+import React, {useRef} from 'react';
+import { View, StyleSheet, TextInput } from 'react-native';
 
 function WriteEditor({title, body, onChangeTitle, onChangeBody}) {
     const bodyRef = useRef();

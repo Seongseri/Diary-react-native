@@ -1,6 +1,6 @@
 import {useNavigation} from '@react-navigation/native';
-import React, {useEffect, useRef} from "react";
-import { Platform, Pressable, StyleSheet, Animated } from "react-native";
+import React, {useEffect, useRef} from 'react';
+import { Platform, Pressable, StyleSheet, Animated } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 function FloatingWriteButton({hidden}) {
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
         width: 56,
         height: 56,
         borderRadius: 28,
-        backgroundColor: '#009688',
+        backgroundColor: '#112D4E',
         justifyContent: 'center',
         alignItems: 'center',
     },

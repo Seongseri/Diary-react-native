@@ -1,8 +1,8 @@
-import React from "react";
-import { Platform, Pressable, StyleSheet, Text } from "react-native";
+import React from 'react';
+import { Platform, Pressable, StyleSheet, Text } from 'react-native';
 import {format, formatDistanceToNow} from 'date-fns';
-import { ko } from "date-fns/locale";
-import { useNavigation } from "@react-navigation/native";
+import { ko } from 'date-fns/locale';
+import { useNavigation } from '@react-navigation/native';
 
 function formatDate(date) {
     const d = new Date(date);

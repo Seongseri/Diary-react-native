@@ -1,10 +1,9 @@
-import React, { useContext, useState } from "react";
-import { StyleSheet, View } from "react-native";
-import FloatingWriteButton from "../components/FloatingWriteButton";
+import React, { useContext, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
 
-import LogContext from "../contexts/LogContext";
-import FeedList from "../components/FeedList";
-import { hi } from "date-fns/locale";
+import FeedList from '../components/FeedList';
+import FloatingWriteButton from '../components/FloatingWriteButton';
+import LogContext from '../contexts/LogContext';
 
 function FeedsScreen() {
     const {logs} = useContext(LogContext);
